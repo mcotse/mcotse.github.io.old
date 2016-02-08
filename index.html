@@ -8,22 +8,50 @@
 		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/overlaystyle.css" />
+		<script src="js/modernizr.custom.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
 		<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 	</head>
+	<header>
+		<div class="container">
+
+
+
+
+		</div>
+	</header>
 	<body>
 		<div class="container animatedheader">
 			<div class="content">
 				<div id="large-header" class="large-header">
-					<canvas id="demo-canvas"></canvas>
+					<canvas id="animation-canvas"></canvas>
+					<section>
+							<p><button id="trigger-overlay" type="button">Menu</button></p>
+					</section>
 					<h1 class="main-title"><span class="thin">Matthew Tse</span></h1>
 					<h1 class="sub-title"><span class="thin">Computer Engineer</span></h1>
 				</div>
 
 			</div>
 		</div><!-- /container -->
+		<div class="overlay overlay-hugeinc">
+			<button type="button" class="overlay-close">Close</button>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<script src="js/classie.js"></script>
+		<script src="js/demo1.js"></script>
 		<script src="js/TweenLite.min.js"></script>
 		<script src="js/EasePack.min.js"></script>
 		<script src="js/rAF.js"></script>

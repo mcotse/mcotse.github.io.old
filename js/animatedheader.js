@@ -15,7 +15,7 @@
         largeHeader = document.getElementById('large-header');
         largeHeader.style.height = height+'px';
 
-        canvas = document.getElementById('demo-canvas');
+        canvas = document.getElementById('animation-canvas');
         canvas.width = width;
         canvas.height = height;
         ctx = canvas.getContext('2d');
@@ -39,7 +39,7 @@
                 var p2 = points[j]
                 if(!(p1 == p2)) {
                     var placed = false;
-                    for(var k = 0; k < 3; k++) {
+                    for(var k = 0; k < 6; k++) {
                         if(!placed) {
                             if(closest[k] == undefined) {
                                 closest[k] = p2;
@@ -48,7 +48,7 @@
                         }
                     }
 
-                    for(var k = 0; k < 3; k++) {
+                    for(var k = 0; k < 6; k++) {
                         if(!placed) {
                             if(getDistance(p1, p2) < getDistance(p1, closest[k])) {
                                 closest[k] = p2;
