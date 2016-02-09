@@ -14,6 +14,7 @@
 
 	function toggleOverlay() {
 		if( classie.has( overlay, 'open' ) ) {
+			triggerBttn.style.visibility = 'visible';
 			classie.remove( overlay, 'open' );
 			classie.add( overlay, 'close' );
 			var onEndTransitionFn = function( ev ) {
@@ -31,6 +32,8 @@
 			}
 		}
 		else if( !classie.has( overlay, 'close' ) ) {
+
+			triggerBttn.style.visibility = 'hidden';
 			classie.add( overlay, 'open' );
 		}
 	}
