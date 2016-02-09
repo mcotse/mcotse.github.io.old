@@ -71,15 +71,6 @@ body {
 	font-weight: 200;
 }
 
-@media only screen and (max-width : 768px) {
-	.animatedheader .main-title{
-		font-size: 3em;
-	}
-	.animatedheader .sub-title{
-		font-size: 1.2em;
-	}
-
-}
 /*button*/
 a {
 	text-decoration: none;
@@ -193,4 +184,13 @@ section button {
 .menu-button--open::after {
 	-webkit-transform: rotate3d(0, 0, 1, -45deg);
 	transform: rotate3d(0, 0, 1, -45deg);
+}
+@media only screen and (max-width : 768px) {
+	.animatedheader .main-title{
+		font-size: 3em;
+	}
+	.animatedheader .sub-title{
+		font-size: 1.2em;
+	}
+
 }
