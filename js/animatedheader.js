@@ -63,7 +63,7 @@
 
         // assign a circle to each point
         for(var i in points) {
-            var c = new Circle(points[i], 2+Math.random()*2, 'rgba(255,255,255,0.3)');
+            var c = new Circle(points[i], 0+Math.random()*3, 'rgba(255,255,255,0.3)');
             points[i].circle = c;
         }
     }
@@ -117,13 +117,13 @@
             ctx.clearRect(0,0,width,height);
             for(var i in points) {
                 // detect points in range
-                if(Math.abs(getDistance(target, points[i])) < 4000) {
+                if(Math.abs(getDistance(target, points[i])) < 2000) {
                     points[i].active = 0.3;
                     points[i].circle.active = 0.6;
-                } else if(Math.abs(getDistance(target, points[i])) < 20000) {
+                } else if(Math.abs(getDistance(target, points[i])) < 15000) {
                     points[i].active = 0.1;
                     points[i].circle.active = 0.3;
-                } else if(Math.abs(getDistance(target, points[i])) < 40000) {
+                } else if(Math.abs(getDistance(target, points[i])) < 30000) {
                     points[i].active = 0.02;
                     points[i].circle.active = 0.1;
                 } else {
