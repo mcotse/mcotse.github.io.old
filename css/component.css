@@ -31,23 +31,23 @@ body {
 }
 
 .main-title {
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	color: #f9f1e9;
-	text-align: center;
-	top: 44%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
-}
-.sub-title {
 	position: relative;
 	margin: 0;
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	bottom: 43%;
+	left: 50%;
+	bottom:53%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+.sub-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	bottom: 33%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
@@ -287,7 +287,8 @@ ul.icons {
 		font-size: 3em;
 	}
 	.animatedheader .sub-title{
-		font-size: 1.1em;
+		font-size: 0.7em;
+		bottom: 36%;
 	}
 	#footer .copyright{
 		font-size: 0.63em;
