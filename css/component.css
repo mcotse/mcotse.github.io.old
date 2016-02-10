@@ -191,7 +191,9 @@ ul.icons {
 	cursor: default;
 	list-style: none;
 	padding-left: 0;
-	margin-top: -0.675em;
+	margin-top: -18.675em;
+
+	text-align: center;
 }
 
 	ul.icons li {
@@ -224,12 +226,12 @@ ul.icons {
 			}
 
 			ul.icons li a:before {
-				color: #ffffff;
-				text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
+				color: #000000;
+				text-shadow: 1px 0px 0px #c8cccf, -1px 0px 0px #c8cccf, 0px 1px 0px #c8cccf, 0px -1px 0px #c8cccf;
 			}
 
 			ul.icons li a:hover:before {
-				text-shadow: 1.25px 0px 0px #FCE4B7, -1.25px 0px 0px #FCE4B7, 0px 1.25px 0px #FCE4B7, 0px -1.25px 0px #ff7496;
+				text-shadow: 1px 0px 0px #FCE4B7, -1px 0px 0px #FCE4B7, 0px 1px 0px #FCE4B7, 0px -1px 0px #FCE4B7;
 			}
 
 			ul.icons li a:before {
@@ -251,7 +253,7 @@ ul.icons {
 	@media screen and (max-width: 480px) {
 
 		ul.icons li a:before {
-			font-size: 1.5rem;
+			font-size: 1.5rem;tas
 		}
 
 	}
