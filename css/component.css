@@ -288,7 +288,7 @@ ul.icons {
 					#footer .copyright li:first-child {
 						border-left: 0;
 					}
-@media only screen and (min-width : 401px) and (max-width : 768px) {
+@media only screen and (min-width : 416px) and (max-width : 768px) {
 	.animatedheader .main-title{
 		font-size: 3em;
 	}
@@ -310,22 +310,15 @@ ul.icons {
 	}
 
 }
-<<<<<<< HEAD
-/*<<<<<<< Updated upstream
-=======*/
-@media only screen and (max-width : 401px) {
+
+@media only screen and (max-width : 415px) {
 	.animatedheader .main-title{
 		font-size: 2.6em;
-=======
-@media only screen and (max-width : 500px) {
-	.animatedheader .main-title{
-		font-size: 2.6;
->>>>>>> parent of e67fde6... Revert "subtitle positioning"
-		bottom:53%;
+		bottom:56%;
 	}
 	.animatedheader .sub-title{
 		font-size: 0.6em;
-		bottom: 30%;
+		bottom: 37%;
 	}
 	#footer .copyright{
 		font-size: 0.63em;
@@ -341,7 +334,3 @@ ul.icons {
 	}
 
 }
-<<<<<<< HEAD
-/*>>>>>>> Stashed changes*/
-=======
->>>>>>> parent of e67fde6... Revert "subtitle positioning"
