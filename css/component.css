@@ -52,7 +52,10 @@ body {
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
-
+#sub-title{
+	margin:0;
+	padding:0;
+}
 .animatedheader .main-title{
 	text-transform: uppercase;
 	font-size: 4.2em;
@@ -187,14 +190,13 @@ section button {
 	transform: rotate3d(0, 0, 1, -45deg);
 }
 /*icons*/
-div.icons{
-	text-align: center;
-}
+
 ul.icons {
 	cursor: default;
 	list-style: none;
 	padding-left: 0;
 	margin-top: -18.675em;
+	text-align: center;
 
 }
 
@@ -293,6 +295,29 @@ ul.icons {
 	.animatedheader .sub-title{
 		font-size: 0.7em;
 		bottom: 36%;
+	}
+	#footer .copyright{
+		font-size: 0.63em;
+	}
+	ul.icons li a:before {
+		font-size: 1.25rem;
+	}
+	ul.icons li a {
+		height: 3rem;
+		line-height: 3rem;
+		text-indent: 3rem;
+		width: 3rem;
+	}
+
+}
+@media only screen and (max-width : 500px) {
+	.animatedheader .main-title{
+		font-size: 2.6;
+		bottom:53%;
+	}
+	.animatedheader .sub-title{
+		font-size: 0.6em;
+		bottom: 30%;
 	}
 	#footer .copyright{
 		font-size: 0.63em;
