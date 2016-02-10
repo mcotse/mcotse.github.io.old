@@ -187,13 +187,15 @@ section button {
 	transform: rotate3d(0, 0, 1, -45deg);
 }
 /*icons*/
+div.icons{
+	text-align: center;
+}
 ul.icons {
 	cursor: default;
 	list-style: none;
 	padding-left: 0;
 	margin-top: -18.675em;
 
-	text-align: center;
 }
 
 	ul.icons li {
@@ -263,6 +265,8 @@ ul.icons {
 			padding: 1.5em 0 0 0;
 			cursor: default;
 			text-align: center;
+			position: fixed;
+			bottom:5%;
 		}
 
 			#footer .copyright {
