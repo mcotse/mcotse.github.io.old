@@ -52,7 +52,10 @@ body {
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
-
+#sub-title{
+	margin:0;
+	padding:0;
+}
 .animatedheader .main-title{
 	text-transform: uppercase;
 	font-size: 4.2em;
@@ -187,14 +190,13 @@ section button {
 	transform: rotate3d(0, 0, 1, -45deg);
 }
 /*icons*/
-div.icons{
-	text-align: center;
-}
+
 ul.icons {
 	cursor: default;
 	list-style: none;
 	padding-left: 0;
 	margin-top: -18.675em;
+	text-align: center;
 
 }
 
@@ -308,11 +310,17 @@ ul.icons {
 	}
 
 }
+<<<<<<< HEAD
 /*<<<<<<< Updated upstream
 =======*/
 @media only screen and (max-width : 401px) {
 	.animatedheader .main-title{
 		font-size: 2.6em;
+=======
+@media only screen and (max-width : 500px) {
+	.animatedheader .main-title{
+		font-size: 2.6;
+>>>>>>> parent of e67fde6... Revert "subtitle positioning"
 		bottom:53%;
 	}
 	.animatedheader .sub-title{
@@ -333,4 +341,7 @@ ul.icons {
 	}
 
 }
+<<<<<<< HEAD
 /*>>>>>>> Stashed changes*/
+=======
+>>>>>>> parent of e67fde6... Revert "subtitle positioning"
