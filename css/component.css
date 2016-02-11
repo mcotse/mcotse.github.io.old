@@ -15,7 +15,6 @@ body {
 	font-family: 'Raleway', Calibri, Arial, sans-serif;
 }
 
-
 .large-header {
 	position: relative;
 	width: 100%;
@@ -228,10 +227,12 @@ ul.icons {
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
+
 			}
 
+
 			ul.icons li a:before {
-				color: #000000;
+				color:#0A1A2A;
 				text-shadow: 1px 0px 0px #c8cccf, -1px 0px 0px #c8cccf, 0px 1px 0px #c8cccf, 0px -1px 0px #c8cccf;
 			}
 
