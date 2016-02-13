@@ -339,15 +339,23 @@ ul.icons {
 
 .social {
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 21px;
-    color:white;
 
 }
 
 .social-description {
-    text-align: center;
-    font-size: 18px;
-    line-height: 21px;
+    position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	bottom: 12%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
 
+.white {
+    color:#f9f1e9;
 }
