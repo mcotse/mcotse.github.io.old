@@ -336,3 +336,18 @@ ul.icons {
 
 }
 
+
+.social {
+    text-align: center;
+    font-size: 15px;
+    line-height: 21px;
+    color:white;
+
+}
+
+.social-description {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+
+}
