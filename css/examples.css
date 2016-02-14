@@ -48,7 +48,7 @@ abbr,acronym { border: 0;
 /* Custom CSS
  * --------------------------------------- */
 body{
-	font-family: arial,helvetica;
+	font-family: 'Raleway',Calibri,arial,helvetica;
 	color: #333;
 	color: rgba(0,0,0,0.5);
 }
@@ -113,6 +113,17 @@ p{
 	width: 100%;
 	padding: 0;
 	margin:0;
+}
+#section1{
+    background: -webkit-gradient(linear, top left, bottom left, from(#050811), to(#3a404e));
+    background: -webkit-linear-gradient(#050811, #3a404e);
+    background: linear-gradient(#050811,#3a404e);
+}
+
+#section2{
+    background: -webkit-gradient(linear, top left, bottom left, from(#3a404e), to(#fff0c1));
+    background: -webkit-linear-gradient(#3a404e, #fff0c1);
+    background: linear-gradient(#3a404e,#fff0c1);
 }
 #download{
 	margin: 10px 0 0 0;
@@ -247,18 +258,18 @@ p{
 	color: #f9f1e9;
 	text-align: center;
 	left: 50%;
-	bottom:53%;
+	top:-60%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
 .sub-title {
-	position: absolute;
+	position: relative;
 	margin: 0;
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	bottom: 33%;
 	left: 50%;
+	top:-62%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
@@ -268,12 +279,12 @@ p{
 }
 .animatedheader .main-title{
 	text-transform: uppercase;
-	font-size: 4.2em;
+	font-size: 3.2em;
 	letter-spacing: 0.1em;
 }
 .animatedheader .sub-title{
 	text-transform: uppercase;
-	font-size: 0.8em;
+	font-size: 2em;
 	letter-spacing: 0.08em;
 }
 
@@ -289,3 +300,6 @@ p{
 	font-weight: 200;
 }
 
+.white {
+    color:#f9f1e9;
+}
