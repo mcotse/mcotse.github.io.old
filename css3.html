@@ -14,7 +14,6 @@
     <link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
     <!--favicon end-->
-	<link rel="stylesheet" type="text/css" href="js/jquery.fullPage.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/examples.css" />
 	<link rel="stylesheet" type="text/css" href="css/menu.css" />
 
@@ -30,7 +29,6 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
 	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
-	<script type="text/javascript" src="css/examples.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
@@ -44,14 +42,6 @@
 
 </head>
 <body>
-<!--
-
-<ul id="menu">
-	<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
-	<li data-menuanchor="secondPage"><a href="#secondPage">About</a></li>
-	<li data-menuanchor="3rdPage"><a href="#3rdPage">Contact</a></li>
-</ul>
--->
 
 <div id="fullpage">
 	<div class="section " id="section0">
@@ -79,18 +69,17 @@
 		</div>
 	</div>
 </div>
-<!--menu-->
 
+<!--menu-->
 <div class="button_container" id="toggle">
   <span class="top"></span>
   <span class="middle"></span>
   <span class="bottom"></span>
 </div>
-
 <div class="overlay" id="overlay">
   <nav class="overlay-menu">
     <ul>
-      <li><a href="#firstPage">Home</a></li>
+      <li><a href="#firstPage" id="menu">Home</a></li>
       <li><a href="#secondPage">About</a></li>
       <li><a href="#3rdPage">Contact</a></li>
     </ul>
@@ -98,6 +87,7 @@
 </div>
 <script src="js/menu.js"></script>
 <!--menu end-->
+
 <script src="js/TweenLite.min.js"></script>
 <script src="js/EasePack.min.js"></script>
 <script src="js/animatedheader.js"></script>
