@@ -16,6 +16,8 @@
     <!--favicon end-->
 	<link rel="stylesheet" type="text/css" href="js/jquery.fullPage.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+	<link rel="stylesheet" type="text/css" href="css/menu.css" />
+
     <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
 
 	<!--[if IE]>
@@ -42,12 +44,14 @@
 
 </head>
 <body>
+<!--
 
 <ul id="menu">
 	<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
 	<li data-menuanchor="secondPage"><a href="#secondPage">About</a></li>
 	<li data-menuanchor="3rdPage"><a href="#3rdPage">Contact</a></li>
 </ul>
+-->
 
 <div id="fullpage">
 	<div class="section " id="section0">
@@ -57,34 +61,45 @@
 					<canvas id="animation-canvas"></canvas>
 					<h1 class="main-title"><span class="thin">Matthew Tse</span></h1>
 					<h1 class="sub-title"><span class="thin">Computer Engineer</span></h1>
-
 				</div>
-
 			</div>
-
-
-		</div>
+    	</div>
 	</div>
 	<div class="section" id="section1">
 		<div class="intro">
-			<h1>Speed on mobile</h1>
+			<h1>About</h1>
 			<p>
-	      If CSS3 transforms are supported (e.g. on mobile devices) they will be used for animations, usually a good
-	      choice if the animation on mobile devices is slow.
 			</p>
 		</div>
 	</div>
 	<div class="section" id="section2">
 		<div class="intro">
-			<h1>No CSS3? No problem!</h1>
-			<p>If CSS3 is not available, animations will fall back to jQuery animate.</p>
+			<h1>Contact</h1>
+			<p></p>
 		</div>
 	</div>
 </div>
+<!--menu-->
 
+<div class="button_container" id="toggle">
+  <span class="top"></span>
+  <span class="middle"></span>
+  <span class="bottom"></span>
+</div>
+
+<div class="overlay" id="overlay">
+  <nav class="overlay-menu">
+    <ul>
+      <li><a href="#firstPage">Home</a></li>
+      <li><a href="#secondPage">About</a></li>
+      <li><a href="#3rdPage">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+<script src="js/menu.js"></script>
+<!--menu end-->
 <script src="js/TweenLite.min.js"></script>
 <script src="js/EasePack.min.js"></script>
-<script src="js/rAF.js"></script>
 <script src="js/animatedheader.js"></script>
 </body>
 </html>
