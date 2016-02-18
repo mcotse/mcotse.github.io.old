@@ -155,10 +155,10 @@ a:-webkit-any-link {
 /*-----------menu-----------*/
 .button_container {
   position: fixed;
-  top: 5%;
-  right: 2%;
-  height: 27px;
-  width: 35px;
+  top: 4%;
+  right: 3%;
+  height: 30px;
+  width: 27px;
   cursor: pointer;
   z-index: 100;
   -webkit-transition: opacity .25s ease;
