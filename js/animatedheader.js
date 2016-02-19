@@ -153,7 +153,8 @@
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p.closest[i].x, p.closest[i].y);
-            ctx.strokeStyle = 'rgba(252, 228, 183,'+ p.active+')';
+            ctx.strokeStyle = 'rgba(0,0,0,'+ p.active+')';
+            //rgba(252,228,183)rgba(56, 209, 205, 0.84)
             ctx.stroke();
 
         }
@@ -173,7 +174,7 @@
             if(!_this.active) return;
             ctx.beginPath();
             ctx.arc(_this.pos.x, _this.pos.y, _this.radius, 0, 2 * Math.PI, false);
-            ctx.fillStyle = 'rgba(252, 228, 183,'+ _this.active+')';
+            ctx.fillStyle = 'rgba(0,0,0,'+ _this.active+')';
             ctx.fill();
         };
     }

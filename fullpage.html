@@ -29,67 +29,40 @@
 
 </head>
 <body>
-<div class="background">
-	<div id="fullpage" >
+<div id="large-header" class="large-header container animatedheader background">
+	<canvas id="animation-canvas"></canvas>
+	<div id="fullpage">
 		<div class="section" id="section0">
-			<div class="container animatedheader">
-				<div id="large-header" class="large-header">
-					<canvas id="animation-canvas"></canvas>
-					<h1 class="main-title"><span class="thin">Matthew Tse</span></h1>
-					<h1 class="sub-title"><span class="thin">Computer Engineer</span></h1>
-				</div>
-    	</div>
+			<h1 class="main-title"><span class="thin">Matthew Tse</span></h1>
+			<h1 class="sub-title"><span class="thin">Computer Engineer</span></h1>
 		</div>
-	<div class="section" id="section1">
-		<div class="intro">
-			<h1><span class="thin">About</span></h1>
-			<p>
-			</p>
+		<div class="section" id="section1">
+				<h1><span class="thin">About</span></h1>
+				<p>testing page1</p>
+		</div>
+		<div class="section" id="section2">
+				<h1><span class="thin">Contact me</span></h1>
+				<p>testing page2</p>
 		</div>
 	</div>
-	<div class="section" id="section2">
-		<div class="intro">
-			<h1><span class="thin">Contact me</span></h1>
-			<p></p>
-		</div>
+	<!-- menu -->
+	<div class="button_container" id="toggle">
+	  <span class="top"></span>
+	  <span class="middle"></span>
+	  <span class="bottom"></span>
 	</div>
+	<div class="overlay" id="overlay">
+	  <nav class="overlay-menu">
+	    <ul>
+	      <li><a href="#firstPage" id="menu">Home</a></li>
+	      <li><a href="#secondPage" id="menu">About</a></li>
+	      <li><a href="#3rdPage" id="menu">Contact</a></li>
+	    </ul>
+	  </nav>
+	</div>
+	<!-- menu end -->
 </div>
-<!--menu-->
-<div class="button_container" id="toggle">
-  <span class="top"></span>
-  <span class="middle"></span>
-  <span class="bottom"></span>
-</div>
-<div class="overlay" id="overlay">
-  <nav class="overlay-menu">
-    <ul>
-      <li><a href="#firstPage" id="menu">Home</a></li>
-      <li><a href="#secondPage" id="menu">About</a></li>
-      <li><a href="#3rdPage" id="menu">Contact</a></li>
-    </ul>
-  </nav>
-</div>
-<!--menu end-->
-<!--dot navigation-->
-<div id="fp-nav" class = "right" style="margin-top:-33.5px;">
-    <ul>
-        <li>
-            <a href="#firstPage" class="active">
-                <span></span>
-            </a>
-        </li>
-        <li>
-            <a href="#secondPage" class="active">
-                <span></span>
-            </a>
-        </li><li>
-            <a href="#3rdPage" class="active">
-                <span></span>
-            </a>
-        </li>
-    </ul>
-</div>
-<!--dot navigation end-->
+
 <script src="js/TweenLite.min.js"></script>
 <script src="js/EasePack.min.js"></script>
 <script src="js/animatedheader.js"></script>

@@ -52,7 +52,7 @@ abbr,acronym { border: 0;
 
 body{
 	font-family: 'Raleway',Calibri,arial,helvetica;
-	color: #FFFFFF;
+	color: #000;
 }
 .wrap{
 	margin-left: auto;
@@ -102,13 +102,10 @@ a:-webkit-any-link {
 .large-header {
 	position: relative;
 	width: 100%;
-/*
-	background: #333;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-*/
 	z-index: 1;
+}
+#animation-canvas{
+  position:absolute;
 }
 
 
@@ -119,7 +116,7 @@ a:-webkit-any-link {
 	color: #000000;
 	text-align: center;
 	left: 50%;
-	top:-60%;
+	top:40%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
@@ -130,7 +127,7 @@ a:-webkit-any-link {
 	color: #000000;
 	text-align: center;
 	left: 50%;
-	top:-62%;
+	top:38%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
@@ -195,7 +192,7 @@ a:-webkit-any-link {
 .button_container span {
   background: #2b2a2a;
   border: none;
-  height: 1.3px;
+  height: 1.8px;
   width: 100%;
   position: absolute;
   top: 0;
@@ -352,21 +349,22 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
-/*
+
 #fp-nav ul li:hover a.active span,
-#fp-nav ul li a.active span{
-    height: 12px;
-    width: 12px;
-    margin: -6px 0 0 -6px;
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a span{
+    height: 7px;
+    width: 7px;
+    margin: -3.5px 0 0 -3.5px;
     border-radius: 100%;
 }
-*/
+
 #fp-nav ul li a span{
     border-radius: 50%;
     position: absolute;
     z-index: 1;
-    height: 3px;
-    width: 3px;
+    height: 4px;
+    width: 4px;
     border: 0;
     background: #2b2a2a;
     left: 50%;
@@ -377,10 +375,10 @@ a:-webkit-any-link {
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
-#fp-nav ul li:hover a span{
-    width: 9px;
-    height: 9px;
+/*#fp-nav ul li:hover a span{
+    width: 7px;
+    height: 7px;
     margin: -5px 0px 0px -5px;
-}
+}*/
 
 /*----------navigationdots----------*/
