@@ -99,11 +99,19 @@ a:-webkit-any-link {
     background: linear-gradient(#3a404e,#fff0c1);*/
 }
 /*-----------section 0:animated header section-----------*/
-/*.large-header {
+.large-header {
 	position: relative;
 	width: 100%;
+/*
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+*/
 	z-index: 1;
-}*/
+}
+
+
 .main-title {
 	position: relative;
 	margin: 0;
@@ -126,20 +134,34 @@ a:-webkit-any-link {
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
-.main-title{
+#sub-title{
+	margin:0;
+	padding:0;
+}
+.animatedheader .main-title{
 	text-transform: uppercase;
-	font-size: 3.6em;
+	font-size: 3.2em;
 	letter-spacing: 0.1em;
 }
-.sub-title{
+.animatedheader .sub-title{
 	text-transform: uppercase;
 	font-size: 1.6em;
 	letter-spacing: 0.08em;
 }
 
-.thin {
+
+.main-title .thin {
 	font-weight: 200;
 }
+.social-description .thin{
+    font-weight: 200;
+    font-family: 'Raleway', Calibri, Arial, sans-serif;
+}
+.sub-title .thin {
+	font-weight: 200;
+}
+
+/*-----------section 0:animated header section end-----------*/
 
 /*-----------menu-----------*/
 .button_container {
