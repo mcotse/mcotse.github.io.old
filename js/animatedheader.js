@@ -22,8 +22,8 @@
 
         // create points
         points = [];
-        for(var x = 0; x < width; x = x + width/20) {
-            for(var y = 0; y < height; y = y + height/20) {
+        for(var x = 0; x < width; x = x + width/5) {
+            for(var y = 0; y < height; y = y + height/5) {
                 var px = x + Math.random()*width/20;
                 var py = y + Math.random()*height/20;
                 var p = {x: px, originX: px, y: py, originY: py };
@@ -39,7 +39,7 @@
                 var p2 = points[j]
                 if(!(p1 == p2)) {
                     var placed = false;
-                    for(var k = 0; k < 6; k++) {
+                    for(var k = 0; k < 1; k++) {
                         if(!placed) {
                             if(closest[k] == undefined) {
                                 closest[k] = p2;
@@ -48,7 +48,7 @@
                         }
                     }
 
-                    for(var k = 0; k < 6; k++) {
+                    for(var k = 0; k < 1; k++) {
                         if(!placed) {
                             if(getDistance(p1, p2) < getDistance(p1, closest[k])) {
                                 closest[k] = p2;
@@ -63,7 +63,7 @@
 
         // assign a circle to each point
         for(var i in points) {
-            var c = new Circle(points[i], 0+Math.random()*3, 'rgba(255,255,255,0.3)');
+            var c = new Circle(points[i], 1.5+Math.random()*1.5, 'rgba(255,255,255)');
             points[i].circle = c;
         }
     }
@@ -118,17 +118,17 @@
             for(var i in points) {
                 // detect points in range
                 if(Math.abs(getDistance(target, points[i])) < 2000) {
-                    points[i].active = 0.3;
-                    points[i].circle.active = 0.6;
-                } else if(Math.abs(getDistance(target, points[i])) < 15000) {
-                    points[i].active = 0.1;
-                    points[i].circle.active = 0.3;
-                } else if(Math.abs(getDistance(target, points[i])) < 30000) {
-                    points[i].active = 0.02;
-                    points[i].circle.active = 0.1;
+                    points[i].active = 1;
+                    points[i].circle.active = 1;
+                // } else if(Math.abs(getDistance(target, points[i])) < 3000) {
+                //     points[i].active = 0.05;
+                //     points[i].circle.active = 0.14;
+                // } else if(Math.abs(getDistance(target, points[i])) < 4000) {
+                //     points[i].active = 0.02;
+                //     points[i].circle.active = 0.04;
                 } else {
                     points[i].active = 0;
-                    points[i].circle.active = 0;
+                    points[i].circle.active = 1;
                 }
 
                 drawLines(points[i]);
@@ -153,6 +153,8 @@
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p.closest[i].x, p.closest[i].y);
+
+            // ctx.strokeStyle = 'rgba(0,0,0,0)';
             ctx.strokeStyle = 'rgba(0,0,0,'+ p.active+')';
             //rgba(252,228,183)rgba(56, 209, 205, 0.84)
             ctx.stroke();
