@@ -195,7 +195,7 @@ a:-webkit-any-link {
   background: #FFF;
 }
 .button_container span {
-  background: #a6a6a6;
+  background: #2b2a2a;
   border: none;
   height: 1.3px;
   width: 100%;
@@ -370,7 +370,7 @@ a:-webkit-any-link {
     height: 3px;
     width: 3px;
     border: 0;
-    background: #a6a6a6;
+    background: #2b2a2a;
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;
