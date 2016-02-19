@@ -99,20 +99,18 @@ a:-webkit-any-link {
     background: linear-gradient(#3a404e,#fff0c1);*/
 }
 /*-----------section 0:animated header section-----------*/
-.large-header {
+/*.large-header {
 	position: relative;
-	width: 100%;
+	width: 100%;*/
 /*
 	background: #333;
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
 */
-	z-index: 1;
-}
+	/*z-index: 1;
+}*/
 
-.animatedheader .large-header {
-}
 
 .main-title {
 	position: relative;
