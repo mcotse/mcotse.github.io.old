@@ -227,7 +227,7 @@ a:-webkit-any-link {
   overflow: hidden;
 }
 .overlay.open {
-  opacity: .85;
+  opacity: .75;
   visibility: visible;
   height: 100%;
 }
@@ -255,7 +255,7 @@ a:-webkit-any-link {
   top: 60%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Raleway', serif;
   font-weight: 200;
   text-align: center;
@@ -293,7 +293,7 @@ a:-webkit-any-link {
   width: 0%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  height: 3px;
+  height: 1px;
   background: #FFF;
   -webkit-transition: .35s;
   transition: .35s;
