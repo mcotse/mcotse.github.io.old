@@ -12,3 +12,7 @@ $(document).on('click', "#menu,#toggle", function () {
     $('#toggle').toggleClass('active');
     $('#overlay').toggleClass('open');
 });
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'assets/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
