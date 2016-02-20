@@ -104,7 +104,7 @@ a:-webkit-any-link {
 	width: 100%;
 	z-index: 1;
 }
-#animation-canvas{
+#animation-canvas, .particles-js-canvas-el{
   position:absolute;
 }
 
@@ -135,26 +135,19 @@ a:-webkit-any-link {
 	margin:0;
 	padding:0;
 }
-.animatedheader .main-title{
+.main-title{
 	text-transform: uppercase;
 	font-size: 3.2em;
 	letter-spacing: 0.1em;
 }
-.animatedheader .sub-title{
+.sub-title{
 	text-transform: uppercase;
 	font-size: 1.6em;
 	letter-spacing: 0.08em;
 }
 
 
-.main-title .thin {
-	font-weight: 200;
-}
-.social-description .thin{
-    font-weight: 200;
-    font-family: 'Raleway', Calibri, Arial, sans-serif;
-}
-.sub-title .thin {
+.thin {
 	font-weight: 200;
 }
 
