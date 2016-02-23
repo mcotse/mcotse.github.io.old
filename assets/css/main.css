@@ -246,6 +246,7 @@ div .v-middle-relative{
 .overlay nav {
   position: relative;
   height: 70%;
+  top:30%;
   /*font-size: 1.5em;*/
   font-family: 'Raleway', serif;
   font-weight: 200;
@@ -266,34 +267,11 @@ div .v-middle-relative{
   position: relative;
   opacity: 0;
 }
-/*.overlay ul li a {
-  display: block;
-  position: relative;
-  color: #FFF;
-  text-decoration: none;
-  overflow: hidden;
-}*/
-/*.overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
-  width: 100%;
-}
-.overlay ul li a:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  height: 1px;
-  background: #FFF;
-  -webkit-transition: .35s;
-  transition: .35s;
-}*/
 .link {
 	outline: none;
 	text-decoration: none;
 	position: relative;
-	line-height: 1;
+	line-height: 1.5;
 	color: #9e9ba4;
 	display: inline-block;
 }
@@ -301,7 +279,7 @@ div .v-middle-relative{
 .link--yaku {
 	color: #D3D3D3;
 	font-family: 'Raleway';
-	font-weight: 200;
+	font-weight: 300;
 	text-transform: uppercase;
 	font-size: 1.5em;
 	overflow: hidden;
@@ -342,14 +320,11 @@ div .v-middle-relative{
 	-webkit-transform: perspective(1000px) rotate3d(0,1,0,360deg);
 	transform: perspective(1000px) rotate3d(0,1,0,360deg);
 }
-
-.link--yaku span:nth-child(4),
 .link--yaku:hover span:first-child {
 	-webkit-transition-delay: 0s;
 	transition-delay: 0s;
 }
 
-.link--yaku span:nth-child(3),
 .link--yaku:hover span:nth-child(2) {
 	-webkit-transition-delay: 0.08s;
 	transition-delay: 0.08s;
@@ -360,13 +335,22 @@ div .v-middle-relative{
 	-webkit-transition-delay: 0.16s;
 	transition-delay: 0.16s;
 }
-
-.link--yaku span:first-child,
 .link--yaku:hover span:nth-child(4) {
 	-webkit-transition-delay: 0.24s;
 	transition-delay: 0.24s;
 }
-
+.link--yaku:hover span:nth-child(5) {
+	-webkit-transition-delay: 0.32s;
+	transition-delay: 0.32s;
+}
+.link--yaku:hover span:nth-child(6) {
+	-webkit-transition-delay: 0.40s;
+	transition-delay: 0.40s;
+}
+.link--yaku:hover span:nth-child(7) {
+	-webkit-transition-delay: 0.48s;
+	transition-delay: 0.48s;
+}
 
 @-webkit-keyframes fadeInRight {
   0% {
