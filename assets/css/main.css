@@ -286,25 +286,27 @@ div .v-middle-relative{
 	padding: 0 0 10px;
 }
 
-.link--yaku::before {
+/*.link--yaku::before,
+.link--yaku::after {
 	content: '';
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	border-width: 2px 0;
+	border-width: 1.5px 0;
 	border-color: #ffffff;
 	border-style: solid;
 	left: 0;
 	-webkit-transform: translate3d(-101%,0,0);
 	transform: translate3d(-101%,0,0);
-	-webkit-transition: -webkit-transform 0.4s;
+	-webkit-transition: -webkit-transform 0.48s;
 	transition: transform 0.4s;
 }
 
-.link--yaku:hover::before {
+.link--yaku:hover::before,
+.link--yaku:hover::after  {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
-}
+}*/
 
 .link--yaku span {
 	display: inline-block;
