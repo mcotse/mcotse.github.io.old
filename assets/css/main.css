@@ -280,7 +280,6 @@ div .v-middle-relative{
 	color: #D3D3D3;
 	font-family: 'Raleway';
 	font-weight: 300;
-	text-transform: uppercase;
 	font-size: 1.5em;
 	overflow: hidden;
 	padding: 0 0 10px;
@@ -311,6 +310,7 @@ div .v-middle-relative{
 .link--yaku span {
 	display: inline-block;
 	position: relative;
+  text-transform: uppercase;
 	-webkit-transform: perspective(1000px) rotate3d(0,1,0,0deg);
 	transform: perspective(1000px) rotate3d(0,1,0,0deg);
 	-webkit-transition: -webkit-transform 0.4s, color 0.4s;

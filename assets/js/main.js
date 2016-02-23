@@ -22,3 +22,5 @@ var el = document.getElementById('hello');
       console.log('callback - particles.js config loaded');
     });
   }
+// adding span between menu link item letters
+// $('#menu').text(function(){ return $(this).text().replace(/(\w)/g, "<span>$&</span>") })
