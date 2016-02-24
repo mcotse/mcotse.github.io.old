@@ -77,35 +77,28 @@ a:-webkit-any-link {
 .section{
 	text-align:center;
 }
-#section1 .v-middle-relative{
+#section1 .v-middle{
   position:relative;
-  top:30% !important;
+  top:30%;
 }
 
-.section .v-middle-relative .container{
+.section .v-middle .container{
   position:relative;
   width:40vw;
   height:40vh;
   left:30%;
 }
-.section .v-middle-relative .container p{
+.section .v-middle .container p{
   text-align:left;
-  font-size:1.5rem;
+  font-size:1.5em;
   font-weight:500;
 }
-.section .v-middle-relative .container .subtext{
+.section .v-middle .container .subtext{
   text-align:left;
-  font-size:1.2rem;
+  font-size:1.2em;
   font-weight:300;
 }
-@media screen and (max-width: 900px) {
-  .section .v-middle-relative .container{
-    position:relative;
-    width:70vw;
-    height:40vh;
-    left:15%;
-  }
-}
+
 .large-header {
 	position: relative;
 	width: 100%;
@@ -132,33 +125,48 @@ a:-webkit-any-link {
 	font-size: 1.6em;
 	letter-spacing: 0.08em;
 }
+
 div .v-middle,
-div .v-top,
-div .v-middle-relative{
+div .v-top{
   left:0;
   right:0;
   margin:0 auto;
-}
-div .v-middle{
-  position:relative;
-  height:100px;
   top:40%;
-}
-div .v-top{
-  position:relative;
-  height:60px;
-  top:8%;
-}
-div .v-middle-relative{
   position:relative;
   height:24vh;
-  top:40%;
 }
+
 
 .thin {
 	font-weight: 200;
 }
+@media screen and (max-width: 500px) {
+  .main-title{
+    font-size: 2.5em;
+  }
+  .sub-title{
+    font-size: 1.3em;
+  }
+  div .v-middle{
+    position:relative;
+    height:100px;
+    top:30%;
+  }
+  .section .v-middle .container p{
+    text-align:left;
+    font-size:1.2em;
+    font-weight:500;
+  }
+  .section .v-middle .container .subtext{
+    text-align:left;
+    font-size:1em;
+    font-weight:300;
+  }
+  #section1 div .v-middle{
 
+    top:20%;
+  }
+}
 /*-----------menu-----------*/
 .button_container {
   position: fixed;
@@ -675,4 +683,12 @@ ul.icons {
 				border-color: #5e5e5e;
 			}
 
-/*icons*/
+/*media queries*/
+@media screen and (max-width: 900px) {
+  .section .v-middle .container{
+    position:relative;
+    width:70vw;
+    height:40vh;
+    left:15%;
+  }
+}
