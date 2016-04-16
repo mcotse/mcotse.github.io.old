@@ -51,7 +51,7 @@ abbr,acronym { border: 0;
 
 
 body{
-	font-family: 'Raleway',Calibri,arial,helvetica;
+	font-family: 'Merriweather',Calibri,arial,helvetica;
 	color: #000;
 }
 .wrap{
@@ -71,8 +71,8 @@ a:-webkit-any-link {
 }
 .intro p{
 	width: 50%;
-	margin: 0 auto;
-	font-size: 1.5em;
+	margin: 20px auto;
+	font-size: 1em;
 }
 .section{
 	text-align:center;
@@ -90,12 +90,12 @@ a:-webkit-any-link {
 }
 .section .v-middle .container p{
   text-align:left;
-  font-size:1.5em;
-  font-weight:500;
+  font-size:1.2em;
+  font-weight:400;
 }
 .section .v-middle .container .subtext{
   text-align:left;
-  font-size:1.2em;
+  font-size:1em;
   font-weight:300;
 }
 
@@ -139,6 +139,7 @@ div .v-top{
 
 .thin {
 	font-weight: 200;
+  font-family: Raleway;
 }
 @media screen and (max-width: 500px) {
   .main-title{
