@@ -10,8 +10,9 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 body {
 
 }
-a{
-	text-decoration:none;
+a:-webkit-any-link{
+  color:black;
+	text-decoration:underline;
 }
 table {
     border-spacing: 0;
@@ -66,9 +67,7 @@ h1{
 p{
 	font-size: 2em;
 }
-a:-webkit-any-link {
-    color: #FFFFFF;
-}
+
 .intro p{
 	width: 50%;
 	margin: 20px auto;
