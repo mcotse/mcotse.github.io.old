@@ -140,33 +140,7 @@ div .v-top{
 	font-weight: 200;
   font-family: Raleway;
 }
-@media screen and (max-width: 500px) {
-  .main-title{
-    font-size: 2.5em;
-  }
-  .sub-title{
-    font-size: 1.3em;
-  }
-  div .v-middle{
-    position:relative;
-    height:100px;
-    top:30%;
-  }
-  .section .v-middle .container p{
-    text-align:left;
-    font-size:1.2em;
-    font-weight:500;
-  }
-  .section .v-middle .container .subtext{
-    text-align:left;
-    font-size:1em;
-    font-weight:300;
-  }
-  #section1 div .v-middle{
 
-    top:20%;
-  }
-}
 /*-----------menu-----------*/
 .button_container {
   position: fixed;
@@ -684,11 +658,11 @@ ul.icons {
 			}
 
 /*media queries*/
-@media screen and (max-width: 900px) {
+/*@media screen and (max-width: 900px) {
   .section .v-middle .container{
     position:relative;
     width:70vw;
     height:40vh;
     left:15%;
   }
-}
+}*/
