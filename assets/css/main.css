@@ -11,8 +11,7 @@ body {
 
 }
 a:-webkit-any-link{
-  color:black;
-	text-decoration:underline;
+  color:#FFFFFF;
 }
 table {
     border-spacing: 0;
@@ -125,6 +124,10 @@ p{
 	letter-spacing: 0.08em;
 }
 
+.sutlelink:-webkit-any-link{
+  color:black;
+	text-decoration:underline;
+}
 div .v-middle,
 div .v-top{
   left:0;
@@ -257,6 +260,7 @@ div .v-top{
 	color: #9e9ba4;
 	display: inline-block;
 }
+
 /* Yaku */
 .link--yaku {
 	color: #D3D3D3;

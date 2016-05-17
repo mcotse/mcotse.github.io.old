@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
         navigation: true,
         navigationPosition: 'right',
-        anchors: ['firstPage', 'secondPage', '3rdPage'],
+        anchors: ['Home', 'About', 'Contact'],
         css3: true
     });
 });
