@@ -666,3 +666,12 @@ ul.icons {
     left:15%;
   }
 }*/
+
+body {
+    opacity: 1;
+    transition: 1.5s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}

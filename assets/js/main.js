@@ -12,6 +12,8 @@ $(document).on('click', "#menu,#toggle", function () {
     $('#toggle').toggleClass('active');
     $('#overlay').toggleClass('open');
 });
+
+window.onload = function () { document.body.className = "";}
 //disable particle animation on mobile
 // var el = document.getElementById('hello');
 //   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
